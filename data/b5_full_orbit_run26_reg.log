@@ -1,0 +1,11 @@
+D | hunt lattices | odd-n hunt | min gap (odd) | gap<=0 count | exact T-atoms | gap<=1 profiles
+0 | 1 | 1 | 2 | 0 | 0 | 
+1 | 10 | 0 | None | 0 | 0 | 
+2 | 15 | 15 | 2 | 0 | 0 | 
+3 | 30 | 0 | None | 0 | 0 | 
+4 | 40 | 40 | 1 | 0 | 0 | [(8, 8, 11, 11, 11), (9, 9, 10, 10, 11)]
+5 | 70 | 0 | None | 0 | 0 | 
+7 | 60 | 0 | None | 0 | 0 | 
+10 | 12 | 12 | 2 | 0 | 0 | 
+
+D=4 untouched-atom configs: {'total': 900, 'failF0': 65, 'fail0MI': 0, 'faillat': 835, 'hunt': 0}

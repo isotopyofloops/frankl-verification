@@ -1,0 +1,810 @@
+{
+  "n": 19,
+  "pipeline": "alethon-fempty-0mi-profile-dBE-run25f12",
+  "doubleton_only": true,
+  "dBE_filter": "s3 >= s2",
+  "T": 10,
+  "totals": {
+    "A_pass": 108,
+    "B_sys_mb2": 1313,
+    "B_sys_mb3": 29342,
+    "B_unique": 31843,
+    "B_sys_mbNone": 31843,
+    "pair_timeout": 1
+  },
+  "by_shape": [
+    {
+      "k": 3,
+      "s2": 3,
+      "s3": 11,
+      "A_est": 1,
+      "stats": {
+        "A_pass": 1,
+        "B_sys_mb2": 0,
+        "B_sys_mb3": 0,
+        "B_unique": 0
+      },
+      "elapsed_sec": 0.0,
+      "status": "ok",
+      "n_hits_stored": 0
+    },
+    {
+      "k": 4,
+      "s2": 6,
+      "s3": 7,
+      "A_est": 1,
+      "stats": {
+        "A_pass": 1,
+        "B_sys_mbNone": 21150,
+        "B_sys_mb2": 990,
+        "B_sys_mb3": 19950,
+        "B_unique": 21150
+      },
+      "elapsed_sec": 7.41,
+      "status": "ok",
+      "n_hits_stored": 0
+    },
+    {
+      "k": 3,
+      "s2": 2,
+      "s3": 12,
+      "A_est": 3,
+      "stats": {
+        "B_sys_mb2": 0,
+        "B_sys_mb3": 0,
+        "B_unique": 0
+      },
+      "elapsed_sec": 0.0,
+      "status": "ok",
+      "n_hits_stored": 0
+    },
+    {
+      "k": 4,
+      "s2": 5,
+      "s3": 8,
+      "A_est": 6,
+      "stats": {
+        "A_pass": 6,
+        "B_sys_mbNone": 55,
+        "B_sys_mb2": 45,
+        "B_sys_mb3": 55,
+        "B_unique": 55
+      },
+      "elapsed_sec": 0.125,
+      "status": "ok",
+      "n_hits_stored": 0
+    },
+    {
+      "k": 4,
+      "s2": 2,
+      "s3": 11,
+      "A_est": 15,
+      "stats": {
+        "B_sys_mb2": 0,
+        "B_sys_mb3": 0,
+        "B_unique": 0
+      },
+      "elapsed_sec": 0.0,
+      "status": "ok",
+      "n_hits_stored": 0
+    },
+    {
+      "k": 4,
+      "s2": 4,
+      "s3": 9,
+      "A_est": 15,
+      "stats": {
+        "A_pass": 3,
+        "B_sys_mb2": 0,
+        "B_sys_mb3": 0,
+        "B_unique": 0
+      },
+      "elapsed_sec": 0.001,
+      "status": "ok",
+      "n_hits_stored": 0
+    },
+    {
+      "k": 4,
+      "s2": 3,
+      "s3": 10,
+      "A_est": 20,
+      "stats": {
+        "B_sys_mb2": 0,
+        "B_sys_mb3": 0,
+        "B_unique": 0
+      },
+      "elapsed_sec": 0.0,
+      "status": "ok",
+      "n_hits_stored": 0
+    },
+    {
+      "k": 5,
+      "s2": 2,
+      "s3": 10,
+      "A_est": 45,
+      "stats": {
+        "B_sys_mb2": 0,
+        "B_sys_mb3": 0,
+        "B_unique": 0
+      },
+      "elapsed_sec": 0.0,
+      "status": "ok",
+      "n_hits_stored": 0
+    },
+    {
+      "k": 6,
+      "s2": 2,
+      "s3": 9,
+      "A_est": 105,
+      "stats": {
+        "B_sys_mb2": 0,
+        "B_sys_mb3": 0,
+        "B_unique": 0
+      },
+      "elapsed_sec": 0.0,
+      "status": "ok",
+      "n_hits_stored": 0
+    },
+    {
+      "k": 5,
+      "s2": 3,
+      "s3": 9,
+      "A_est": 120,
+      "stats": {
+        "B_sys_mb2": 0,
+        "B_sys_mb3": 0,
+        "B_unique": 0
+      },
+      "elapsed_sec": 0.001,
+      "status": "ok",
+      "n_hits_stored": 0
+    },
+    {
+      "k": 5,
+      "s2": 4,
+      "s3": 8,
+      "A_est": 210,
+      "stats": {
+        "B_sys_mbNone": 0,
+        "B_sys_mb2": 0,
+        "B_sys_mb3": 0,
+        "B_unique": 0
+      },
+      "elapsed_sec": 0.003,
+      "status": "ok",
+      "n_hits_stored": 0
+    },
+    {
+      "k": 5,
+      "s2": 6,
+      "s3": 6,
+      "A_est": 210,
+      "stats": {
+        "A_pass": 85,
+        "B_sys_mbNone": 9976,
+        "B_sys_mb2": 70,
+        "B_sys_mb3": 8680,
+        "B_unique": 9976,
+        "pair_timeout": 1
+      },
+      "elapsed_sec": 25.0,
+      "status": "ok",
+      "n_hits_stored": 0
+    },
+    {
+      "k": 7,
+      "s2": 2,
+      "s3": 8,
+      "A_est": 210,
+      "stats": {
+        "B_sys_mbNone": 0,
+        "B_sys_mb2": 0,
+        "B_sys_mb3": 0,
+        "B_unique": 0
+      },
+      "elapsed_sec": 0.001,
+      "status": "ok",
+      "n_hits_stored": 0
+    },
+    {
+      "k": 5,
+      "s2": 5,
+      "s3": 7,
+      "A_est": 252,
+      "stats": {
+        "A_pass": 12,
+        "B_sys_mbNone": 170,
+        "B_sys_mb2": 100,
+        "B_sys_mb3": 170,
+        "B_unique": 170
+      },
+      "elapsed_sec": 0.326,
+      "status": "ok",
+      "n_hits_stored": 0
+    },
+    {
+      "k": 8,
+      "s2": 2,
+      "s3": 7,
+      "A_est": 378,
+      "stats": {
+        "B_sys_mbNone": 0,
+        "B_sys_mb2": 0,
+        "B_sys_mb3": 0,
+        "B_unique": 0
+      },
+      "elapsed_sec": 0.001,
+      "status": "ok",
+      "n_hits_stored": 0
+    },
+    {
+      "k": 6,
+      "s2": 3,
+      "s3": 8,
+      "A_est": 455,
+      "stats": {
+        "B_sys_mbNone": 0,
+        "B_sys_mb2": 0,
+        "B_sys_mb3": 0,
+        "B_unique": 0
+      },
+      "elapsed_sec": 0.001,
+      "status": "ok",
+      "n_hits_stored": 0
+    },
+    {
+      "k": 9,
+      "s2": 2,
+      "s3": 6,
+      "A_est": 630,
+      "stats": {
+        "B_sys_mbNone": 0,
+        "B_sys_mb2": 0,
+        "B_sys_mb3": 0,
+        "B_unique": 0
+      },
+      "elapsed_sec": 0.001,
+      "status": "ok",
+      "n_hits_stored": 0
+    },
+    {
+      "k": 10,
+      "s2": 2,
+      "s3": 5,
+      "A_est": 990,
+      "stats": {
+        "B_sys_mbNone": 0,
+        "B_sys_mb2": 0,
+        "B_sys_mb3": 0,
+        "B_unique": 0
+      },
+      "elapsed_sec": 0.002,
+      "status": "ok",
+      "n_hits_stored": 0
+    },
+    {
+      "k": 7,
+      "s2": 3,
+      "s3": 7,
+      "A_est": 1330,
+      "stats": {
+        "B_sys_mbNone": 0,
+        "B_sys_mb2": 0,
+        "B_sys_mb3": 0,
+        "B_unique": 0
+      },
+      "elapsed_sec": 0.003,
+      "status": "ok",
+      "n_hits_stored": 0
+    },
+    {
+      "k": 6,
+      "s2": 4,
+      "s3": 7,
+      "A_est": 1365,
+      "stats": {
+        "B_sys_mbNone": 0,
+        "B_sys_mb2": 0,
+        "B_sys_mb3": 0,
+        "B_unique": 0
+      },
+      "elapsed_sec": 0.009,
+      "status": "ok",
+      "n_hits_stored": 0
+    },
+    {
+      "k": 11,
+      "s2": 2,
+      "s3": 4,
+      "A_est": 1485,
+      "stats": {
+        "B_sys_mbNone": 0,
+        "B_sys_mb2": 0,
+        "B_sys_mb3": 0,
+        "B_unique": 0
+      },
+      "elapsed_sec": 0.003,
+      "status": "ok",
+      "n_hits_stored": 0
+    },
+    {
+      "k": 6,
+      "s2": 5,
+      "s3": 6,
+      "A_est": 3003,
+      "stats": {
+        "B_sys_mbNone": 280,
+        "B_sys_mb2": 85,
+        "B_sys_mb3": 280,
+        "B_unique": 280
+      },
+      "elapsed_sec": 0.105,
+      "status": "ok",
+      "n_hits_stored": 0
+    },
+    {
+      "k": 8,
+      "s2": 3,
+      "s3": 6,
+      "A_est": 3276,
+      "stats": {
+        "B_sys_mbNone": 0,
+        "B_sys_mb2": 0,
+        "B_sys_mb3": 0,
+        "B_unique": 0
+      },
+      "elapsed_sec": 0.008,
+      "status": "ok",
+      "n_hits_stored": 0
+    },
+    {
+      "k": 7,
+      "s2": 4,
+      "s3": 6,
+      "A_est": 5985,
+      "stats": {
+        "B_sys_mbNone": 1,
+        "B_sys_mb2": 1,
+        "B_sys_mb3": 1,
+        "B_unique": 1
+      },
+      "elapsed_sec": 0.019,
+      "status": "ok",
+      "n_hits_stored": 0
+    },
+    {
+      "k": 9,
+      "s2": 3,
+      "s3": 5,
+      "A_est": 7140,
+      "stats": {
+        "B_sys_mbNone": 0,
+        "B_sys_mb2": 0,
+        "B_sys_mb3": 0,
+        "B_unique": 0
+      },
+      "elapsed_sec": 0.015,
+      "status": "ok",
+      "n_hits_stored": 0
+    },
+    {
+      "k": 10,
+      "s2": 3,
+      "s3": 4,
+      "A_est": 14190,
+      "stats": {
+        "B_sys_mbNone": 0,
+        "B_sys_mb2": 0,
+        "B_sys_mb3": 0,
+        "B_unique": 0
+      },
+      "elapsed_sec": 0.03,
+      "status": "ok",
+      "n_hits_stored": 0
+    },
+    {
+      "k": 7,
+      "s2": 5,
+      "s3": 5,
+      "A_est": 20349,
+      "stats": {
+        "B_sys_mbNone": 197,
+        "B_sys_mb2": 12,
+        "B_sys_mb3": 192,
+        "B_unique": 197
+      },
+      "elapsed_sec": 0.136,
+      "status": "ok",
+      "n_hits_stored": 0
+    },
+    {
+      "k": 8,
+      "s2": 4,
+      "s3": 5,
+      "A_est": 20475,
+      "stats": {
+        "B_sys_mbNone": 6,
+        "B_sys_mb2": 6,
+        "B_sys_mb3": 6,
+        "B_unique": 6
+      },
+      "elapsed_sec": 0.045,
+      "status": "ok",
+      "n_hits_stored": 0
+    },
+    {
+      "k": 11,
+      "s2": 3,
+      "s3": 3,
+      "A_est": 26235,
+      "stats": {
+        "B_sys_mbNone": 1,
+        "B_sys_mb2": 1,
+        "B_sys_mb3": 1,
+        "B_unique": 1
+      },
+      "elapsed_sec": 0.072,
+      "status": "ok",
+      "n_hits_stored": 0
+    },
+    {
+      "k": 9,
+      "s2": 4,
+      "s3": 4,
+      "A_est": 58905,
+      "stats": {
+        "B_sys_mbNone": 7,
+        "B_sys_mb2": 3,
+        "B_sys_mb3": 7,
+        "B_unique": 7
+      },
+      "elapsed_sec": 0.152,
+      "status": "ok",
+      "n_hits_stored": 0
+    }
+  ],
+  "hits": [],
+  "n_hits": 0,
+  "field4_pair_completeness_gate": {
+    "lattices_with_T": 0,
+    "pair_complete_T": 0,
+    "pair_incomplete_T": 0
+  },
+  "field5_twoT_gate": {
+    "lattices_with_2T": 0
+  },
+  "deficit_on_T_atoms": {
+    "n_checks": 0,
+    "all_match": null
+  },
+  "profile_crosscheck_non_T": {
+    "note": "Iso #521: deficit is for T-atoms; n=17/B5 hunt have 0 T-atoms. Structural |\u2191|=2+c2+c3 holds.",
+    "c5_complement_n17": [
+      {
+        "a": 0,
+        "c2": 2,
+        "c3": 3,
+        "aup": 7,
+        "is_T": false
+      },
+      {
+        "a": 1,
+        "c2": 2,
+        "c3": 3,
+        "aup": 7,
+        "is_T": false
+      },
+      {
+        "a": 2,
+        "c2": 2,
+        "c3": 3,
+        "aup": 7,
+        "is_T": false
+      },
+      {
+        "a": 3,
+        "c2": 2,
+        "c3": 3,
+        "aup": 7,
+        "is_T": false
+      },
+      {
+        "a": 4,
+        "c2": 2,
+        "c3": 3,
+        "aup": 7,
+        "is_T": false
+      }
+    ],
+    "b5_gap1_samples": [
+      {
+        "n": 23,
+        "gap": 1,
+        "profile": [
+          {
+            "a": 0,
+            "c2": 3,
+            "c3": 3,
+            "aup": 8,
+            "is_T": false
+          },
+          {
+            "a": 1,
+            "c2": 3,
+            "c3": 3,
+            "aup": 8,
+            "is_T": false
+          },
+          {
+            "a": 2,
+            "c2": 4,
+            "c3": 5,
+            "aup": 11,
+            "is_T": false
+          },
+          {
+            "a": 3,
+            "c2": 4,
+            "c3": 5,
+            "aup": 11,
+            "is_T": false
+          },
+          {
+            "a": 4,
+            "c2": 4,
+            "c3": 5,
+            "aup": 11,
+            "is_T": false
+          }
+        ]
+      },
+      {
+        "n": 23,
+        "gap": 1,
+        "profile": [
+          {
+            "a": 0,
+            "c2": 3,
+            "c3": 4,
+            "aup": 9,
+            "is_T": false
+          },
+          {
+            "a": 1,
+            "c2": 3,
+            "c3": 4,
+            "aup": 9,
+            "is_T": false
+          },
+          {
+            "a": 2,
+            "c2": 4,
+            "c3": 4,
+            "aup": 10,
+            "is_T": false
+          },
+          {
+            "a": 3,
+            "c2": 4,
+            "c3": 4,
+            "aup": 10,
+            "is_T": false
+          },
+          {
+            "a": 4,
+            "c2": 4,
+            "c3": 5,
+            "aup": 11,
+            "is_T": false
+          }
+        ]
+      },
+      {
+        "n": 23,
+        "gap": 1,
+        "profile": [
+          {
+            "a": 0,
+            "c2": 3,
+            "c3": 4,
+            "aup": 9,
+            "is_T": false
+          },
+          {
+            "a": 1,
+            "c2": 3,
+            "c3": 4,
+            "aup": 9,
+            "is_T": false
+          },
+          {
+            "a": 2,
+            "c2": 4,
+            "c3": 4,
+            "aup": 10,
+            "is_T": false
+          },
+          {
+            "a": 3,
+            "c2": 4,
+            "c3": 5,
+            "aup": 11,
+            "is_T": false
+          },
+          {
+            "a": 4,
+            "c2": 4,
+            "c3": 4,
+            "aup": 10,
+            "is_T": false
+          }
+        ]
+      },
+      {
+        "n": 23,
+        "gap": 1,
+        "profile": [
+          {
+            "a": 0,
+            "c2": 3,
+            "c3": 4,
+            "aup": 9,
+            "is_T": false
+          },
+          {
+            "a": 1,
+            "c2": 3,
+            "c3": 4,
+            "aup": 9,
+            "is_T": false
+          },
+          {
+            "a": 2,
+            "c2": 4,
+            "c3": 5,
+            "aup": 11,
+            "is_T": false
+          },
+          {
+            "a": 3,
+            "c2": 4,
+            "c3": 4,
+            "aup": 10,
+            "is_T": false
+          },
+          {
+            "a": 4,
+            "c2": 4,
+            "c3": 4,
+            "aup": 10,
+            "is_T": false
+          }
+        ]
+      },
+      {
+        "n": 23,
+        "gap": 1,
+        "profile": [
+          {
+            "a": 0,
+            "c2": 3,
+            "c3": 3,
+            "aup": 8,
+            "is_T": false
+          },
+          {
+            "a": 1,
+            "c2": 4,
+            "c3": 5,
+            "aup": 11,
+            "is_T": false
+          },
+          {
+            "a": 2,
+            "c2": 3,
+            "c3": 3,
+            "aup": 8,
+            "is_T": false
+          },
+          {
+            "a": 3,
+            "c2": 4,
+            "c3": 5,
+            "aup": 11,
+            "is_T": false
+          },
+          {
+            "a": 4,
+            "c2": 4,
+            "c3": 5,
+            "aup": 11,
+            "is_T": false
+          }
+        ]
+      }
+    ]
+  },
+  "skipped_shapes": [],
+  "global_timeout_remaining_shapes": [],
+  "elapsed_sec": 33.491,
+  "coverage_note": "Doubleton+dBE shapes with per-shape timeout; not full multi-atom-line n=19. Prior partials (fast, s3<=3) also empty.",
+  "house": "no claim Conjecture A; instance\u2260family",
+  "focused_recheck": {
+    "k5_s26_s36_mb3": {
+      "stats": {
+        "A_pass": 85,
+        "B_sys": 8680,
+        "lattices": 0,
+        "hunt": 0,
+        "with_T": 0,
+        "timeout": 1
+      },
+      "hits": [],
+      "elapsed": 90.0
+    },
+    "k5_s26_s36_mb4": {
+      "stats": {
+        "A_pass": 85,
+        "B_sys": 9970,
+        "lattices": 0,
+        "hunt": 0,
+        "with_T": 0,
+        "timeout": 1
+      },
+      "hits": [],
+      "elapsed": 60.0
+    },
+    "k4_s26_s37_mb4": {
+      "stats": {
+        "A_pass": 1,
+        "B_sys": 21150,
+        "lattices": 0,
+        "hunt": 0,
+        "with_T": 0
+      },
+      "hits": [],
+      "elapsed": 5.42
+    },
+    "k5_s25_s37_mb4": {
+      "stats": {
+        "A_pass": 12,
+        "B_sys": 170,
+        "lattices": 0,
+        "hunt": 0,
+        "with_T": 0
+      },
+      "hits": [],
+      "elapsed": 0.36
+    },
+    "k4_s25_s38_mb3": {
+      "stats": {
+        "A_pass": 6,
+        "B_sys": 55,
+        "lattices": 0,
+        "hunt": 0,
+        "with_T": 0
+      },
+      "hits": [],
+      "elapsed": 0.11
+    },
+    "k6_s26_s35_mb3": {
+      "stats": {
+        "A_pass": 70,
+        "B_sys": 1230,
+        "lattices": 0,
+        "hunt": 0,
+        "with_T": 0
+      },
+      "hits": [],
+      "elapsed": 13.0
+    }
+  },
+  "focused_recheck_note": "Extended time on A_pass>0 shapes; includes one non-dBE (6,6,5) probe",
+  "conclusion_partial": {
+    "doubleton_dBE_lattices_found": 0,
+    "hunt_found": 0,
+    "T_atoms_found": 0,
+    "field4_5_still_empty": true,
+    "honest_coverage": "doubleton lines + dBE-primary; multi-atom lines not enumerated; some B pools size-capped"
+  }
+}
