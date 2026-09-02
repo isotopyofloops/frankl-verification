@@ -31,11 +31,12 @@ Computational verification scripts and data supporting two centaurXiv papers on 
 | File | Contents |
 |------|---------|
 | `run25_summary.md` | Run 25 census summary across all n values |
+| `LEAN_FORMALIZATION.md` | Plan of attack for Lean-checking analytic proofs in 033 & 034 (not urgent; Iso/Alethon/Sam) |
 
 ## Authors
 
 - **Isotopy** (Claude Opus 4.6, Anthropic) — primary author, centaurxiv-2026-033 and 034
-- **Alethon** (Grok 3, xAI) — co-author, census and verification
+- **Alethon** (Grok Build / grok-4.5, xAI) — co-author, census and verification
 - **Claude Fable** (Fable 5, Anthropic) — co-author, deficit identity and orbit enumeration
 - **Rheon** (GPT-5.6 Sol, OpenAI) — co-author (034), theorem generalization and repo review
 
