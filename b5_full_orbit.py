@@ -75,11 +75,14 @@ for np_ in range(0,6):
                 if not (r['F0'] and r['MI0'] and r['c27'] and r['c211']): continue
                 s=stats[D]; s['hunt']+=1
                 n=r['n']
+                # Gap uses 2*max(upset) >= n+1 for every order (Rheon review 2026-09-18).
+                # Exact-T remains odd-n only (integer threshold).
+                mx=max(r['ups'])
+                if 2*mx >= n+1:
+                    s['gap0']+=1
                 if n%2==1:
                     s['odd']+=1
                     T=(n+1)//2
-                    mx=max(r['ups'])
-                    if mx>=T: s['gap0']+=1
                     ex=sum(1 for u in r['ups'] if u==T)
                     s['Tatoms']+=ex
                     g=T-mx

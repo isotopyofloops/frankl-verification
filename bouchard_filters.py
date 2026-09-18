@@ -279,15 +279,23 @@ def check_boundary_saturation(info):
 
 
 def check_incomparables_not_chain(info):
-    """Theorem 2.13: For all x ∈ L\\{0,1}, incomparables to x don't form a chain."""
+    """Theorem 2.13: For all x ∈ L\\{0,1}, incomparables to x don't form a chain.
+
+    Empty and singleton posets are chains (Bouchard's proof includes the empty
+    case), so |Inc(x)| <= 1 must fail — not pass via skip.
+    """
     if not info.is_lattice:
         return False, "not a lattice"
     for x in info.elements:
         if x == info.bot or x == info.top_elem:
             continue
         inc = info.incomparables(x)
+        # Empty and singleton sets are chains.
         if len(inc) <= 1:
-            continue
+            return False, (
+                f"element {x}: incomparables form a chain "
+                f"(|Inc(x)|={len(inc)}; empty/singleton posets are chains)"
+            )
         is_chain = True
         for a, b in combinations(inc, 2):
             if not info.leq(a, b) and not info.leq(b, a):

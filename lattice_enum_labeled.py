@@ -5,9 +5,17 @@ Enumerate small labeled lattices and run Bouchard filters.
 For n elements {0..n-1}, generate strict orders via bitmasks over ordered pairs,
 keep posets that are lattices, apply check_all_bouchard (+ optional Thm 2.9).
 
+WARNING (Rheon review 2026-09-18): this enumerator generates directed-edge
+subsets then takes transitive closure WITHOUT deduplicating isomorphic
+order matrices. Different edge sets can yield the same partial order
+(e.g. 0<1,1<2 with or without 0<2). Do NOT treat raw counts as a
+trustworthy labeled-lattice census. Manuscript tables use a separate
+graded-atomistic enumeration (atom-set representation). Prefer that
+pipeline for published counts; use this file only for filter smoke tests.
+
 Usage:
-  python3 lattice_enum.py --n-max 5
-  python3 lattice_enum.py --n-max 4 --json-out lattice_enum_n4.json
+  python3 lattice_enum_labeled.py --n-max 5
+  python3 lattice_enum_labeled.py --n-max 4 --json-out lattice_enum_n4.json
 """
 
 from __future__ import annotations
