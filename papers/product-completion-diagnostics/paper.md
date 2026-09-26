@@ -44,7 +44,7 @@ $$
 P_\Pi(F) = \prod_{B \in \Pi} \pi_B(F),
 $$
 
-meaning all unions of independently selected projected sets on the blocks. Since F ⊆ P_Π(F), a coordinate occurring in at most N/2 members of this completion **certifies Frankl for F**. The denominator is N, not |P_Π(F)|: any element rare in F remains at least as rare in a superset. Failure of the certificate does not imply failure of Frankl.
+meaning all unions of independently selected projected sets on the blocks. Since F ⊆ P_Π(F), a coordinate occurring in at most N/2 members of this completion **certifies Frankl for F**. The denominator is N, not |P_Π(F)|: any element rare in the completion is at least as rare in F itself, since F ⊆ P_Π(F). Failure of the certificate does not imply failure of Frankl.
 
 **Bipartition sufficiency.** It suffices to check bipartitions when asking whether any single completion certifies F. Merging blocks of a finer partition shrinks the completion, so a successful certificate from a finer partition remains successful after merging to two blocks. There are 2^(d−1) − 1 unordered bipartitions of a d-element set.
 
