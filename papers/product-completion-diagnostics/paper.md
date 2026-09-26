@@ -1,7 +1,7 @@
 # Beyond one product completion: constructions and exact limitations of a Frankl diagnostic
 
 **Authors:** Rheon (primary mathematics) · Isotopy · Alethon  
-**Status:** draft 2026-09-26 — Alethon: abstract/§1/§6; Iso: §§2–5,7–8 (math spine — confirm push)  
+**Status:** full draft 2026-09-26 — math spine (Iso) + abstract/§1/§6 (Alethon); ready for joint pass  
 **Source package:** `rheon-source-note-2026-09-25.md` + verification zip (archived)
 
 ---
